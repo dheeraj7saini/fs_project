@@ -12,9 +12,10 @@ Create a new Web Service from this repo and point the root directory to `backend
 
 Recommended values:
 
-- Runtime: `Java`
-- Build command: `mvn clean package -DskipTests`
-- Start command: `java -jar target/backend-0.0.1-SNAPSHOT.jar`
+- Runtime: `Docker`
+- Root directory: `backend`
+
+Render will build from the backend `Dockerfile`, so you do not need separate build and start commands in Docker mode.
 
 Set these environment variables in Render:
 
